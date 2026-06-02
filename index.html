@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Labib Shahriar | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="container">
+        
+        <div class="card card-glow">
+            <div class="avatar-container">
+                <img src="avatar.jpg" alt="Labib Shahriar Avatar" class="avatar">
+            </div>
+            <h1 class="title-main">Labib Shahriar</h1>
+            <p class="subtitle">YOUTUBER | EXECUTIVE | GAMER</p>
+            <div class="bio-text">
+                HELLO, I'M <span class="highlight-green">LABIB SHAHRIAR</span> — A PASSIONATE TEENAGER WHO IS CONSTANTLY INSPIRED TO LEARN, CREATE, AND EXPLORE NEW THINGS. ALSO KNOWN ONLINE AS <span class="highlight-red">INDIAGNITO</span> AND <span class="highlight-green">ASTROZEX</span>. I AM A STUDENT AS WELL AS A CREATIVE DEVELOPER WITH INTERESTS IN TECHNOLOGY, DESIGN, AND ONLINE COMMUNITIES.
+            </div>
+            
+            <button class="email-btn" onclick="copyEmail()">
+                <i class="fa-regular fa-copy"></i> Email : me.maxora@gmail.com
+            </button>
+            <div id="toast" class="toast">Email Copied!</div>
+        </div>
+
+        <div class="card card-glow">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item"><i class="fa-brands fa-python text-green"></i> Python</div>
+                <div class="skill-item"><i class="fa-brands fa-discord text-red"></i> Discord Automation</div>
+                <div class="skill-item"><i class="fa-brands fa-html5 text-green"></i> HTML</div>
+                <div class="skill-item"><i class="fa-brands fa-css3-alt text-red"></i> CSS</div>
+            </div>
+        </div>
+
+        <div class="card card-glow">
+            <h2 class="section-title">My Birthday</h2>
+            <div class="countdown-container" id="countdown">
+                <div class="time-box"><span id="days">00</span><p>Days</p></div>
+                <div class="time-box"><span id="hours">00</span><p>Hrs</p></div>
+                <div class="time-box"><span id="minutes">00</span><p>Min</p></div>
+                <div class="time-box"><span id="seconds">00</span><p>Sec</p></div>
+            </div>
+        </div>
+
+        <div class="card card-glow layout-split">
+            <div class="split-left">
+                <div class="channel-avatar">
+                    <img src="youtube-logo.png" alt="Indiagnito YouTube Logo">
+                </div>
+                <a href="https://www.youtube.com/@indiagnito" target="_blank" class="btn btn-youtube">
+                    <i class="fa-brands fa-youtube"></i> Indiagnito
+                </a>
+            </div>
+            <div class="split-right">
+                <p>THIS CHANNEL WAS CREATED ON NOVEMBER 6, 2025 — A PLACE DEDICATED TO UPLOADING <span class="highlight-green">MINECRAFT & ROBLOX</span> THEMED MUSIC TRACKS, EDITS, AND VIBES FOR THE COMMUNITY.</p>
+            </div>
+        </div>
+
+        <div class="card card-glow layout-video">
+            <div class="video-thumbnail">
+                <a href="https://www.youtube.com/watch?v=yInLBaiNUAE" target="_blank">
+                    <img src="https://img.youtube.com/vi/yInLBaiNUAE/maxresdefault.jpg" alt="Latest Video">
+                    <div class="play-icon"><i class="fa-solid fa-play"></i></div>
+                </a>
+            </div>
+            <div class="video-info">
+                <h3>MY LATEST SONG!</h3>
+                <p class="highlight-red">GO WATCH IT OUT</p>
+            </div>
+        </div>
+
+        <div class="card card-glow layout-split reverse">
+            <div class="split-right text-left">
+                <p><span class="highlight-green">FLUXCORD</span> — YOUR TRUSTED HUB FOR DISCORD NITRO, BOOSTS, ACCOUNTS, EXCHANGES, CUSTOM BOTS, AUTOMATION, HOSTING, AND <span class="highlight-green">DIGITAL SERVICES</span>.</p>
+            </div>
+            <div class="split-left">
+                <div class="flux-avatar">
+                    <img src="flux-logo.png" alt="Flux Cord Logo">
+                </div>
+                <a href="https://discord.gg/gbwGZ8ar8z" target="_blank" class="btn btn-discord">
+                    <i class="fa-brands fa-discord"></i> Flux Cord
+                </a>
+            </div>
+        </div>
+
+        <div class="card card-glow">
+            <h2 class="section-title">MY PROJECTS</h2>
+            
+            <div class="projects-container">
+                <div class="project-box">
+                    <h3>1. Discord Token Online</h3>
+                    <ul>
+                        <li>• Maintains account presence automatically</li>
+                        <li>• Custom status support</li>
+                        <li>• Channel-based activity management</li>
+                        <li>• Performance optimized dashboard</li>
+                    </ul>
+                </div>
+                <div class="project-box">
+                    <h3>2. Discord Token VC Joiner</h3>
+                    <ul>
+                        <li>• Automated voice channel presence</li>
+                        <li>• Multi-account management</li>
+                        <li>• Custom activity settings</li>
+                        <li>• Stable long-term operation</li>
+                    </ul>
+                </div>
+                <div class="project-box">
+                    <h3>3. Token Checker</h3>
+                    <ul>
+                        <li>• Bulk account validation</li>
+                        <li>• Status verification system</li>
+                        <li>• Fast processing speed</li>
+                        <li>• Detailed result reporting</li>
+                    </ul>
+                </div>
+                <div class="project-box">
+                    <h3>4. Token Changer</h3>
+                    <ul>
+                        <li>• Profile customization automation</li>
+                        <li>• Username update support</li>
+                        <li>• Bio management tools</li>
+                        <li>• Bulk processing capabilities</li>
+                    </ul>
+                </div>
+                <div class="project-box">
+                    <h3>5. Token Generator</h3>
+                    <ul>
+                        <li>• Randomized credential generation</li>
+                        <li>• Custom format options</li>
+                        <li>• High-speed generation engine</li>
+                        <li>• Export functionality</li>
+                    </ul>
+                </div>
+                <div class="project-box">
+                    <h3>6. Nitro Generator</h3>
+                    <ul>
+                        <li>• Automated code generation simulator</li>
+                        <li>• Bulk generation support</li>
+                        <li>• Real/Fake detection system</li>
+                        <li>• Detailed output logs</li>
+                    </ul>
+                </div>
+                <div class="project-box">
+                    <h3>7. LTC Payment Verifier Bot</h3>
+                    <ul>
+                        <li>• Litecoin payment verification</li>
+                        <li>• Automatic transaction detection</li>
+                        <li>• Instant confirmation alerts</li>
+                        <li>• Merchant-friendly integration</li>
+                    </ul>
+                </div>
+                <div class="project-box">
+                    <h3>8. Bulk Email Checker</h3>
+                    <ul>
+                        <li>• Email validation system</li>
+                        <li>• Bulk processing support</li>
+                        <li>• Fast and accurate checking</li>
+                        <li>• Exportable results</li>
+                    </ul>
+                </div>
+                <div class="project-box">
+                    <h3>9. Custom API Development</h3>
+                    <ul>
+                        <li>• REST API development</li>
+                        <li>• Database integration</li>
+                        <li>• Authentication systems</li>
+                        <li>• Scalable architecture design</li>
+                    </ul>
+                </div>
+                <div class="project-box">
+                    <h3>10. Giveaway Manager</h3>
+                    <ul>
+                        <li>• Automated giveaway hosting</li>
+                        <li>• Winner selection system</li>
+                        <li>• Custom entry requirements</li>
+                        <li>• Easy administration tools</li>
+                    </ul>
+                </div>
+                <div class="project-box">
+                    <h3>11. Discord Ticket System</h3>
+                    <ul>
+                        <li>• Support ticket automation</li>
+                        <li>• Transcript generation</li>
+                        <li>• Staff management features</li>
+                        <li>• Customizable ticket panels</li>
+                    </ul>
+                </div>
+                <div class="project-box">
+                    <h3>12. Discord Auto Moderator</h3>
+                    <ul>
+                        <li>• Spam protection system</li>
+                        <li>• Rule enforcement automation</li>
+                        <li>• Warning and logging features</li>
+                        <li>• Custom moderation settings</li>
+                    </ul>
+                </div>
+                <div class="project-box">
+                    <h3>13. Discord Invite Tracker</h3>
+                    <ul>
+                        <li>• Invite tracking analytics</li>
+                        <li>• Referral leaderboards</li>
+                        <li>• Reward management system</li>
+                        <li>• Detailed member statistics</li>
+                    </ul>
+                </div>
+                <div class="project-box">
+                    <h3>14. Discord Verification System</h3>
+                    <ul>
+                        <li>• User verification workflow</li>
+                        <li>• Anti-bot protection</li>
+                        <li>• Role assignment automation</li>
+                        <li>• Secure server onboarding</li>
+                    </ul>
+                </div>
+            </div>
+
+            <a href="https://discord.gg/gbwGZ8ar8z" target="_blank" class="buy-now-btn">BUY NOW</a>
+        </div>
+
+    </div>
+
+    <script>
+        function updateCountdown() {
+            const currentYear = new Date().getFullYear();
+            let targetDate = new Date(`August 8, ${currentYear} 00:00:00`).getTime();
+            const now = new Date().getTime();
+            
+            if (now > targetDate) {
+                targetDate = new Date(`August 8, ${currentYear + 1} 00:00:00`).getTime();
+            }
+            
+            const difference = targetDate - now;
+
+            const d = Math.floor(difference / (1000 * 60 * 60 * 24));
+            const h = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const m = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+            const s = Math.floor((difference % (1000 * 60)) / 1000);
+
+            document.getElementById('days').innerText = d < 10 ? '0' + d : d;
+            document.getElementById('hours').innerText = h < 10 ? '0' + h : h;
+            document.getElementById('minutes').innerText = m < 10 ? '0' + m : m;
+            document.getElementById('seconds').innerText = s < 10 ? '0' + s : s;
+        }
+        setInterval(updateCountdown, 1000);
+        updateCountdown();
+
+        function copyEmail() {
+            const emailText = "me.maxora@gmail.com";
+            navigator.clipboard.writeText(emailText).then(() => {
+                const toast = document.getElementById("toast");
+                toast.classList.add("show");
+                setTimeout(() => { toast.classList.remove("show"); }, 2000);
+            });
+        }
+    </script>
+</body>
+</html>
